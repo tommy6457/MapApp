@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65845516278D614B006A6C35 /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65845515278D614B006A6C35 /* ReviewsViewController.swift */; };
 		65B7338D2786C80500199493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7338C2786C80500199493 /* AppDelegate.swift */; };
 		65B7338F2786C80500199493 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7338E2786C80500199493 /* SceneDelegate.swift */; };
-		65B733912786C80500199493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B733902786C80500199493 /* ViewController.swift */; };
 		65B733942786C80500199493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B733922786C80500199493 /* Main.storyboard */; };
 		65B733962786C80700199493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B733952786C80700199493 /* Assets.xcassets */; };
 		65B733992786C80700199493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B733972786C80700199493 /* LaunchScreen.storyboard */; };
+		65B733A32786D5F100199493 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B733A22786D5F100199493 /* ListTableViewController.swift */; };
+		65B733A52786DB9600199493 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B733A42786DB9600199493 /* ListTableViewCell.swift */; };
+		65B733A72786E45100199493 /* GoogleMapListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B733A62786E45100199493 /* GoogleMapListController.swift */; };
+		65B733AB278972B100199493 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B733AA278972B100199493 /* PhotosCollectionViewCell.swift */; };
+		65B733AF278972FE00199493 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B733AE278972FE00199493 /* CommentTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65845515278D614B006A6C35 /* ReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewController.swift; sourceTree = "<group>"; };
 		65B733892786C80500199493 /* MapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B7338C2786C80500199493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65B7338E2786C80500199493 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		65B733902786C80500199493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65B733932786C80500199493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65B733952786C80700199493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65B733982786C80700199493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65B7339A2786C80700199493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B733A22786D5F100199493 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		65B733A42786DB9600199493 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		65B733A62786E45100199493 /* GoogleMapListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapListController.swift; sourceTree = "<group>"; };
+		65B733AA278972B100199493 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		65B733AE278972FE00199493 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 		65B7338B2786C80500199493 /* MapApp */ = {
 			isa = PBXGroup;
 			children = (
+				65845515278D614B006A6C35 /* ReviewsViewController.swift */,
 				65B7338C2786C80500199493 /* AppDelegate.swift */,
 				65B7338E2786C80500199493 /* SceneDelegate.swift */,
-				65B733902786C80500199493 /* ViewController.swift */,
+				65B733A22786D5F100199493 /* ListTableViewController.swift */,
+				65B733A62786E45100199493 /* GoogleMapListController.swift */,
 				65B733922786C80500199493 /* Main.storyboard */,
+				65B733AE278972FE00199493 /* CommentTableViewCell.swift */,
+				65B733AA278972B100199493 /* PhotosCollectionViewCell.swift */,
+				65B733A42786DB9600199493 /* ListTableViewCell.swift */,
 				65B733952786C80700199493 /* Assets.xcassets */,
 				65B733972786C80700199493 /* LaunchScreen.storyboard */,
 				65B7339A2786C80700199493 /* Info.plist */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B733912786C80500199493 /* ViewController.swift in Sources */,
+				65B733A32786D5F100199493 /* ListTableViewController.swift in Sources */,
+				65B733AB278972B100199493 /* PhotosCollectionViewCell.swift in Sources */,
+				65B733A52786DB9600199493 /* ListTableViewCell.swift in Sources */,
 				65B7338D2786C80500199493 /* AppDelegate.swift in Sources */,
+				65B733AF278972FE00199493 /* CommentTableViewCell.swift in Sources */,
+				65845516278D614B006A6C35 /* ReviewsViewController.swift in Sources */,
+				65B733A72786E45100199493 /* GoogleMapListController.swift in Sources */,
 				65B7338F2786C80500199493 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
